@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1104" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="9Vb-oR-gqF">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--TutoVC One-->
+        <scene sceneID="Adu-dj-qIo">
+            <objects>
+                <viewController storyboardIdentifier="TutoVCOne" id="ZvC-bL-YV7" customClass="TutoVCOne" customModule="PageSlideTutorialExam" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SQ6-gR-YkR"/>
+                        <viewControllerLayoutGuide type="bottom" id="d9e-zR-CiD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="R4T-n8-Jzw">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash" translatesAutoresizingMaskIntoConstraints="NO" id="Pyc-rM-fWY">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Pyc-rM-fWY" secondAttribute="trailing" id="8kJ-zv-ZK8"/>
+                            <constraint firstItem="d9e-zR-CiD" firstAttribute="top" secondItem="Pyc-rM-fWY" secondAttribute="bottom" id="C97-5o-tbb"/>
+                            <constraint firstItem="Pyc-rM-fWY" firstAttribute="leading" secondItem="R4T-n8-Jzw" secondAttribute="leading" id="fmM-Tk-jKx"/>
+                            <constraint firstItem="Pyc-rM-fWY" firstAttribute="top" secondItem="R4T-n8-Jzw" secondAttribute="top" id="wX0-i0-n9H"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XfU-JN-gfq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="565" y="-340"/>
+        </scene>
+        <!--Page HandleVC-->
+        <scene sceneID="Wsf-Rv-gP4">
+            <objects>
+                <pageViewController storyboardIdentifier="PageHandleVC" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="9Vb-oR-gqF" customClass="PageHandleVC" customModule="PageSlideTutorialExam" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mib-Vg-rXS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-152" y="378"/>
+        </scene>
+        <!--TutoVC Two-->
+        <scene sceneID="d95-nd-5zO">
+            <objects>
+                <viewController storyboardIdentifier="TutoVCTwo" id="6cN-bk-po4" customClass="TutoVCTwo" customModule="PageSlideTutorialExam" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Dp8-h8-GhN"/>
+                        <viewControllerLayoutGuide type="bottom" id="ht8-yS-NTC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fbQ-u3-1uS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image1" translatesAutoresizingMaskIntoConstraints="NO" id="Gnl-xC-gOh">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Gnl-xC-gOh" firstAttribute="top" secondItem="fbQ-u3-1uS" secondAttribute="top" id="2yD-ct-iIQ"/>
+                            <constraint firstAttribute="trailing" secondItem="Gnl-xC-gOh" secondAttribute="trailing" id="Mcb-Qz-hAr"/>
+                            <constraint firstItem="ht8-yS-NTC" firstAttribute="top" secondItem="Gnl-xC-gOh" secondAttribute="bottom" id="TIA-yp-6qc"/>
+                            <constraint firstItem="Gnl-xC-gOh" firstAttribute="leading" secondItem="fbQ-u3-1uS" secondAttribute="leading" id="eMG-x8-6kL"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bTE-Rt-QD2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="565" y="378"/>
+        </scene>
+        <!--TutoVC Three-->
+        <scene sceneID="wYp-mS-8T9">
+            <objects>
+                <viewController storyboardIdentifier="TutoVCThree" id="s1b-5A-O8P" customClass="TutoVCThree" customModule="PageSlideTutorialExam" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hX1-Xy-Ebn"/>
+                        <viewControllerLayoutGuide type="bottom" id="DCn-Jl-oRk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cAQ-LV-ZaB">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image2" translatesAutoresizingMaskIntoConstraints="NO" id="vtB-vg-1Ng">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="vtB-vg-1Ng" firstAttribute="leading" secondItem="cAQ-LV-ZaB" secondAttribute="leading" id="CZN-ag-cah"/>
+                            <constraint firstAttribute="trailing" secondItem="vtB-vg-1Ng" secondAttribute="trailing" id="fmQ-44-BDV"/>
+                            <constraint firstItem="DCn-Jl-oRk" firstAttribute="top" secondItem="vtB-vg-1Ng" secondAttribute="bottom" id="lEw-LV-zUz"/>
+                            <constraint firstItem="vtB-vg-1Ng" firstAttribute="top" secondItem="cAQ-LV-ZaB" secondAttribute="top" id="wlk-XX-Y39"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="taj-OR-FXF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="565" y="1106"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="image1" width="633" height="1091"/>
+        <image name="image2" width="633" height="1091"/>
+        <image name="splash" width="633" height="1091"/>
+    </resources>
+</document>
